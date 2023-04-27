@@ -7,12 +7,11 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Cmaras de fotos</h1>
-    <fieldset>
+    <form method="post" action="">
+    <h1>Camaras de fotos</h1>
         <legend>Selecciona los parametros</legend>
-    <label>
         <select name="Modelo">
-            <option value="0">Marca</option>
+            <option value="" aria-label="Modelo" disabled selected>Marca</option>
             <option value="1">Canon</option>
             <option value="2">Casio</option>
             <option value="3">Fuijifilm</option>
@@ -21,24 +20,26 @@
             <option value="6">Nikon</option>
             <option value="7">Pentax</option>
         </select>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    </label>
 
-    <label>
         <select name="Formato">
-            <option selected="0">Objetivo integrado</option>
-            <option selected="1">Compacta</option>
-            <option selected="2">Avanzada</option>
-            <option selected="3">Bridge</option>
-            <option selected="4">Objetivo intercambio</option>
-            <option selected="5">Sin espejo</option>
-            <option selected="6">Telemetrica</option>
-        </select>
-    </label>
+            <option selected="" aria-label="Formato" disabled selected>Objetivo integrado</option>
+            <option selected="0">Compacta</option>
+            <option selected="1">Avanzada</option>
+            <option selected="2">Bridge</option>
+            <option selected="3">Objetivo intercambio</option>
+            <option selected="4">Sin espejo</option>
+            <option selected="5">Telemetrica</option>
+        </select>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-    <label>
+        <select name="Sensor">
+            <option selected="" aria-label="Sensor" disabled selected>Tamaño sensor</option>
+            <option selected="1">Hasta 1/2 3"</option>
+            <option selected="2">De 1 a 1/2</option>
+            <option selected="3">De 4/3 a APS-C</option>
+        </select>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-    </label>
-    </fieldset>
+        <select name="">
+    </form>
 
 </body>
 </html>
