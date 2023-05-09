@@ -9,6 +9,7 @@
 <body>
     <form method="post" action="">
     <h1>Camaras de fotos</h1>
+    <fieldset>
         <legend>Selecciona los parametros</legend>
         <select name="Modelo">
             <option value="" aria-label="Modelo" disabled selected>Marca</option>
@@ -22,23 +23,52 @@
         </select>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
         <select name="Formato">
-            <option selected="" aria-label="Formato" disabled selected>Objetivo integrado</option>
-            <option selected="0">Compacta</option>
-            <option selected="1">Avanzada</option>
-            <option selected="2">Bridge</option>
-            <option selected="3">Objetivo intercambio</option>
-            <option selected="4">Sin espejo</option>
-            <option selected="5">Telemetrica</option>
+            <option value="" aria-label="Formato" disabled selected>Objetivo integrado</option>
+            <option value="0">Compacta</option>
+            <option value="1">Avanzada</option>
+            <option value="2">Bridge</option>
+            <option value="3">Objetivo intercambio</option>
+            <option value="4">Sin espejo</option>
+            <option value="5">Telemetrica</option>
         </select>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
         <select name="Sensor">
-            <option selected="" aria-label="Sensor" disabled selected>Tamaño sensor</option>
-            <option selected="1">Hasta 1/2 3"</option>
-            <option selected="2">De 1 a 1/2</option>
-            <option selected="3">De 4/3 a APS-C</option>
+            <option value="" aria-label="Sensor" disabled selected>Tamaño sensor</option>
+            <option value="1">Hasta 1/2 3"</option>
+            <option value="2">De 1 a 1/2</option>
+            <option value="3">De 4/3 a APS-C</option>
         </select>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-        <select name="">
+        <select name="Resolucion">
+            <option value="" aria-label="Resolucion" disabled selected>Resolucion</option>
+            <option value="0">Hasta 11 MP</option>
+            <option value="1">De 12 a 15 MP</option>
+            <option value="2">De 16 a 20 MP</option>
+            <option value="3">De 21 a 28 MP</option>
+            <option value="4">Mas de 28 MP</option>
+        </select><br><br>
+
+        <label>
+            Precio
+            <input type="number" name="Precio">
+        </label>&nbsp;&nbsp;&nbsp;
+
+        <label>
+            Cantidad
+            <input type="number">
+        </label><br><br>
+
+        <label>
+            Incluir Descatalogadas
+            <input type="checkbox">
+        </label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+        <label>
+            Color
+        <input type="color">
+        </label>
+
+    </fieldset>  
     </form>
 
 </body>
