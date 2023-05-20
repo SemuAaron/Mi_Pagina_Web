@@ -20,7 +20,13 @@ body {
     color: white;
 }
 
-body > span:nth-child(3) > img {
-    size: 40%;
-    object-position: 50%;
+.container {
+    width: 100%;
+    overflow: hidden;
+    color: white;   
+}
+
+img { 
+    float: left;
+    margin-right: 10px;
 }

@@ -1,0 +1,23 @@
+.escalon1 {
+    background-color: aqua;
+    font-size: 1.5em;
+    margin-right: 55%;
+}
+
+.escalon2 {
+background-color: greenyellow;
+font-size: 1.5em;
+margin-right: 50%;
+}
+
+.escalon3 {
+    background-color: orange;
+    font-size: 1.5em;
+    margin-right: 40%;
+}
+
+.escalon4 {
+    background-color: darkorchid;
+    font-size: 1.5em;
+    margin-right: 35%;
+}
