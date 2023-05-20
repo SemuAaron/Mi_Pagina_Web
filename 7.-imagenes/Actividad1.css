@@ -1,0 +1,48 @@
+.chat {
+    width: 50em;
+    margin: 0 auto;
+}
+
+.mensaje {
+    display: flex;
+    margin-bottom: 6em;
+}
+
+.avatar {
+    color:blue
+}
+
+.Avatar1 {
+    border-radius: 50%;
+    padding: 2em;
+}
+
+.interior {
+    margin-left: 6em;
+    border-radius: 1.2em;
+    padding: 1.2em;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nombre {
+    font-size: 1.5em;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+.fecha {
+    font-size: 1em;
+    font-size: 0,5em;
+    color: blueviolet;
+}
+
+.texto p {
+    font-size: 1em;
+    color: coral;
+}
+
