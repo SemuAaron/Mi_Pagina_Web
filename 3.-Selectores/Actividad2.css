@@ -1,0 +1,27 @@
+body {
+    text-align: center;
+    text-align: justify;
+}
+
+h1 {
+    font-size: 3em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:darkgoldenrod;
+    
+}
+
+.P1 {
+    background-color: cadetblue;
+    color: brown;
+}
+
+.P2 {
+    color: chocolate;
+}
+
+.P3 {
+    font-style: italic;
+    font-size: 2em;
+    font-family: monospace;
+    color: navajowhite;
+}
