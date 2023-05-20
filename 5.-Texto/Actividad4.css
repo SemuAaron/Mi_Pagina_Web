@@ -1,0 +1,21 @@
+@font-face {
+    font-family: PTSans;
+    font-size: 4.15em;
+    src: local('PTSans'), local('PTSans-Regular'), url(https://fonts.google.com/specimen/PT+Sans) format('woff2');
+    font-style: normal;
+}
+
+@font-face {
+    font-family: basketball;
+    font-size: 3em;
+    src: local(basketball), local('basketball-Regular'), url(https://www.dafont.com/es/basketball.font.woff2) format ('woff2');
+    font-style: normal;
+}
+
+.coolvetica {
+    font-family: PTSans;
+}
+
+.basketball {
+    font-family: basketball;
+}
