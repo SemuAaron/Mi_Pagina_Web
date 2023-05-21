@@ -1,20 +1,24 @@
 .chat {
-    width: 50em;
+    width: 40em;
     margin: 0 auto;
 }
 
 .mensaje {
     display: flex;
-    margin-bottom: 6em;
+    margin-bottom: 1.5em;
+    margin-left: 0.5em;
 }
 
 .avatar {
-    color:blue
+    width: 15%; 
+    height: 15%;
+    border-radius: 50%;  
+    overflow: hidden;  
 }
 
-.Avatar1 {
-    border-radius: 50%;
-    padding: 2em;
+.avatar img {
+    width: 100%;  
+    height: auto; 
 }
 
 .interior {
@@ -27,18 +31,20 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-.nombre {
-    font-size: 1.5em;
-    font-weight: bold;
-    font-size: 2em;
+    margin-left: 1em;
 }
 
 .fecha {
-    font-size: 1em;
-    font-size: 0,5em;
+    margin-left: 1em;
+    font-size: 0.6em;
     color: blueviolet;
+    opacity: 40%;
+}
+
+.nombre {
+    font-size: 1em;
+    font-weight: bold;
+    
 }
 
 .texto p {

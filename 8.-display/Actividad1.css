@@ -1,0 +1,13 @@
+.display1 {
+    display: inline;
+    font-size: 1em;
+    color:chocolate;
+}
+
+.display { 
+    display: inline;
+    font-size: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+    color:chocolate;
+}
