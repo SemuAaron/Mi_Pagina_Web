@@ -1,0 +1,22 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+strong {
+    position: relative;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+strong::after {
+    content: '';
+    position: absolute;
+    left: -10%;
+    right: 50%;
+    bottom: 0;
+    background-color: red;
+    height: 0.2em;
+    width: 120%;
+    margin-left: 5%;
+}
