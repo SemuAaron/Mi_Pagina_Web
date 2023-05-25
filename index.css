@@ -1,0 +1,19 @@
+.column {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    padding: 40px;
+}
+
+.column a {
+    display: block;
+    margin-bottom: 15px;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+}
+
