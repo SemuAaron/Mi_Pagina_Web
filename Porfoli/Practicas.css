@@ -29,21 +29,21 @@ header {
     color:rgb(0, 0, 0);
 }
 
-  .Horizontal{
+.Horizontal{
     display: flex;
     justify-content: center;
     align-items: center;
-  }
+}
 
-  .column {
+.column {
     width: 50%;
     padding: 30px;
     background-color: #fff;
     border-radius: 5px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-  }
+}
 
-  .column a {
+.column a {
     display: block;
     margin-bottom: 15px;
     padding: 10px;
@@ -52,8 +52,8 @@ header {
     text-decoration: none;
     border-radius: 5px;
     text-align: center;
-  }
+}
 
-  .column a:hover {
+.column a:hover {
     background-color: #45a049;
-  }
+}
