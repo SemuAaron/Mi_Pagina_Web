@@ -3,6 +3,7 @@ h1 {
     font: bold;
     display: flex;
     justify-content: left;
+    margin-top: -0.1%;
 }
 
 p {
@@ -12,6 +13,8 @@ p {
 }
 
 h2 {
+    font-size: 3em;
     font: bold;
-    margin: 1em 2em 1em 1em;
+    display: flex;
+    margin-top: 30%;
 }
