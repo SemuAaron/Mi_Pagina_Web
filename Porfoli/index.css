@@ -44,6 +44,8 @@ header {
 }
 
 .column a {
+    font-size: 1.5em;
+    font-style: oblique;
     display: block;
     margin-bottom: 15px;
     padding: 10px;
